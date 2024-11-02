@@ -1,0 +1,168 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "HEAmperage",
+      "metaData": {
+        "userData": "HEAmperage"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 10.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "HEWaterMass",
+      "metaData": {
+        "userData": "HEWaterMass"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Sheet1.ElementCrossArea",
+      "metaData": {
+        "userData": "Sheet1!ElementCrossArea"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0005,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Sheet1.ElementLength",
+      "metaData": {
+        "userData": "Sheet1!ElementLength"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.25,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "HEFinalTemp",
+      "metaData": {
+        "userData": "HEFinalTemp"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 195.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "HEcyclesToreplace",
+      "metaData": {
+        "userData": "HEcyclesToreplace"
+      },
+      "type": "Double",
+      "format": "_(* #,##0.00_);_(* (#,##0.00);_(* \"-\"??_);_(@_)",
+      "units": "",
+      "description": "",
+      "defaultValue": 297.05269960938909,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "HEnewBrewtime",
+      "metaData": {
+        "userData": "HEnewBrewtime"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 3.7790277777777779,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "HEreplaceHEbrewTime",
+      "metaData": {
+        "userData": "HEreplaceHEbrewTime"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 5.0387037037037032,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "HEresistance",
+      "metaData": {
+        "userData": "HEresistance"
+      },
+      "type": "Double",
+      "format": "_(* #,##0.000000_);_(* (#,##0.000000);_(* \"-\"??_);_(@_)",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.345,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Psocket",
+      "metaData": {
+        "userData": "Psocket"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 1200.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "RelaceValue",
+      "metaData": {
+        "userData": "RelaceValue"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 900.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "HeatElem_.xlsx"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "HeatElem_V2.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"HeatElem_V2.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "HeatElem_V2.xlsx"
+  }
+}

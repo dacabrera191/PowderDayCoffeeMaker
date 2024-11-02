@@ -1,0 +1,16 @@
+{
+  "plugInId": "0ab58c18-5738-45e1-ad06-9f58949248e5",
+  "runFolderPreference": "PerRun",
+  "requires": [],
+  "inputs": [],
+  "outputs": [],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "script.m"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {}
+}

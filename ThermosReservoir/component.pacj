@@ -1,0 +1,117 @@
+{
+  "plugInId": "0ab58c18-5738-45e1-ad06-9f58949248e5",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "initial_temp_water",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "time_seconds",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "vacuum_thickness",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "inner_radius",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "num_cups",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "mass_water",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "final_temp_water_F",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "outer_radius_vacuum",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": true,
+      "relativePath": "script.m"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "ThemosWaterReservoir - Copy.m"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "ThemosWaterReservoir.m"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "MatlabPlugInSettings": "{\"UseMultiArrays\":true,\"ConvertSingleDimensionalArrays\":true,\"CaptureOutput\":false,\"ShowMatlabAtStart\":false,\"ClearWorkspaceBeforeRun\":true,\"EnableAppPool\":true,\"MaxParallelSession\":-1,\"IsMatlabVersionSpecified\":false,\"SpecifiedMatLabVersion\":\"\",\"FileName\":null}",
+    "FilePath": null
+  }
+}
