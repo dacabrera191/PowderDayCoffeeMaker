@@ -9,6 +9,10 @@ heating_element_length = 0.5;  % 50 cm length
 heating_element_cross = 0.0005;  % 0.5 cm cross-sectional radius (corrected to be in meters)
 
 
+%fixed costs
+voltage_regulator;
+temperature_sensor;
+
 % Function definition for estimate_coffee_maker_cost
 % Material properties and costs per kg
 cost_per_kg_stainless_steel = 5;  % USD/kg for stainless steel (heating element, thermos, infusion chamber)
