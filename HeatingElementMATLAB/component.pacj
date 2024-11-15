@@ -1,0 +1,151 @@
+{
+  "plugInId": "0ab58c18-5738-45e1-ad06-9f58949248e5",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "voltage",
+      "metaData": {
+        "userData": "voltage"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "V",
+      "description": "",
+      "defaultValue": 80.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "finalT",
+      "metaData": {
+        "userData": "finalT"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "Farenheight",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "initialT",
+      "metaData": {
+        "userData": "initialT"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "Farenheight",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "massOfWaterInThermos",
+      "metaData": {
+        "userData": "massOfWaterInThermos"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "grams",
+      "description": "",
+      "defaultValue": 88.72,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "length",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "crossSection",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "resistance",
+      "metaData": {
+        "userData": "resistance"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "Ohms",
+      "description": "",
+      "defaultValue": 0.354,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "powerGenerated",
+      "metaData": {
+        "userData": "powerGenerated"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "Watts",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "joulesReleased",
+      "metaData": {
+        "userData": "joulesReleased"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "Joules/Sec",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "timeTillDesiredTemp",
+      "metaData": {
+        "userData": "timeTillDesiredTemp"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "HeatingElement.m"
+    },
+    {
+      "plugInIntegral": true,
+      "relativePath": "script.m"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "MatlabPlugInSettings": "{\"UseMultiArrays\":true,\"ConvertSingleDimensionalArrays\":true,\"CaptureOutput\":false,\"ShowMatlabAtStart\":false,\"ClearWorkspaceBeforeRun\":true,\"EnableAppPool\":true,\"MaxParallelSession\":-1,\"IsMatlabVersionSpecified\":false,\"SpecifiedMatLabVersion\":\"\",\"FileName\":null}",
+    "FilePath": null
+  }
+}

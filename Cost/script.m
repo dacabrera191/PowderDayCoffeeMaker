@@ -10,8 +10,11 @@ heating_element_cross = 0.0005;  % 0.5 cm cross-sectional radius (corrected to b
 
 
 %fixed costs
-voltage_regulator;
-temperature_sensor;
+%voltage_regulator;
+%temperature_sensor;
+%buttons;
+%uController;
+%AC_DC_converter; 
 
 % Function definition for estimate_coffee_maker_cost
 % Material properties and costs per kg
