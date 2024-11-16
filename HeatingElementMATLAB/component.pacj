@@ -23,7 +23,7 @@
       },
       "type": "Double",
       "format": "",
-      "units": "Farenheight",
+      "units": "Farenheigt",
       "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
@@ -36,22 +36,9 @@
       },
       "type": "Double",
       "format": "",
-      "units": "Farenheight",
+      "units": "Farenheigt",
       "description": "",
       "defaultValue": 0.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "massOfWaterInThermos",
-      "metaData": {
-        "userData": "massOfWaterInThermos"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "grams",
-      "description": "",
-      "defaultValue": 88.72,
       "enumValues": [],
       "enumAliases": []
     },
@@ -76,9 +63,31 @@
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
+    },
+    {
+      "name": "numServings",
+      "metaData": {},
+      "type": "Integer",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 6,
+      "enumValues": [],
+      "enumAliases": []
     }
   ],
   "outputs": [
+    {
+      "name": "timeTillDesiredTempInMins",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
     {
       "name": "resistance",
       "metaData": {
@@ -119,10 +128,54 @@
       "enumAliases": []
     },
     {
-      "name": "timeTillDesiredTemp",
+      "name": "timeTillDesiredTempInSec",
       "metaData": {
-        "userData": "timeTillDesiredTemp"
+        "userData": "timeTillDesiredTempInSec"
       },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "lengthCm",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "crossSectionCm",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "massOfWaterKg",
+      "metaData": {},
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "massOfWaterg",
+      "metaData": {},
       "type": "Double",
       "format": "",
       "units": "",

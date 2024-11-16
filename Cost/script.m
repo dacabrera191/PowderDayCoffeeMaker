@@ -5,8 +5,8 @@ thermos_radius = 0.1;  % 10 cm radius
 thermos_thickness = 0.001;  % 1 mm thickness of the thermos
 infusion_chamber_radius = 0.05;  % 5 cm radius for infusion chamber
 infusion_chamber_height = 0.1;  % 10 cm height
-heating_element_length = 0.5;  % 50 cm length
-heating_element_cross = 0.0005;  % 0.5 cm cross-sectional radius (corrected to be in meters)
+heating_element_length;  % 50 cm length
+heating_element_cross;  % 0.5 cm cross-sectional radius (corrected to be in meters)
 
 
 %fixed costs

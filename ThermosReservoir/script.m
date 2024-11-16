@@ -2,9 +2,9 @@
 
 density_water = 1000;  % kg/m^3 
 
-num_cups;
+totalNumServings; %kg
 
-mass_water = num_cups * .000237;  % kg 
+mass_water = totalNumServings * .000237;  % kg 
 
 initial_temp_water;  % Fahrenheit 
 
