@@ -9,7 +9,7 @@ heating_element_length;  % 50 cm length
 heating_element_cross;  % 0.5 cm cross-sectional radius (corrected to be in meters)
 
 
-%fixed costs
+
 %voltage_regulator;
 %temperature_sensor;
 %buttons;
@@ -60,11 +60,15 @@ base_cost = base_mass * cost_per_kg_plastic;  % Cost of base
 
 % Total material cost
 total_material_cost = heating_element_cost + thermos_cost + infusion_chamber_cost + base_cost;
+% Fixed Cost
+fixed_Cost = 100000;
+% Units Produced
+NumUnits = 100000;
 
 % Manufacturing cost (30% markup on material cost)
 manufacturing_cost = total_material_cost * manufacturing_markup;
 
-% Total cost
-total_cost = total_material_cost + manufacturing_cost;
+total_cost = NumUnits*(total_material_cost + manufacturing_cost) + fixed_Cost;
+
 
 

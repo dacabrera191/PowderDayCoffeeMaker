@@ -26,6 +26,7 @@ massOfWaterKg = ((29.57 * numServings)/1000);
 
 
 resistance = (StainlessSteelResistivity)*(length/crossSection);
+ampsUsed = voltage / resistance;
 powerGenerated =  voltage.^2 / resistance;
 joulesReleased = powerGenerated
 
