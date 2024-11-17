@@ -61,14 +61,15 @@ base_cost = base_mass * cost_per_kg_plastic;  % Cost of base
 % Total material cost
 total_material_cost = heating_element_cost + thermos_cost + infusion_chamber_cost + base_cost;
 % Fixed Cost
-fixed_Cost = 100000;
+fixed_cost;
 % Units Produced
 NumUnits = 100000;
+
 
 % Manufacturing cost (30% markup on material cost)
 manufacturing_cost = total_material_cost * manufacturing_markup;
 
-total_cost = NumUnits*(total_material_cost + manufacturing_cost) + fixed_Cost;
+total_cost = NumUnits*(total_material_cost + manufacturing_cost) + fixed_cost;
 
 
 

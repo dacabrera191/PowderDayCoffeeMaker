@@ -76,7 +76,7 @@
       "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 0.0,
+      "defaultValue": 100000.0,
       "enumValues": [],
       "enumAliases": []
     }
