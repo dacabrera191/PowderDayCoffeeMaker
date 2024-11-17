@@ -1,8 +1,8 @@
-%
+﻿%
 %variable: TemperatureOfWaterInThermos double input  default=120 units=Farenheit
 %variable: PowerOutputOfWallSocket double input default=2100 units=Watts
 %variable: CoffeeGroundToWaterMassRatioInCup double input default=0 
-%variable: CoffeeVolumeOutput double input default=0 units CubicMeters
+%variable: CoffeeVolumeOutput double input default=0 units=CubicMeters
 %variable: BrewTime double input default=0 units=Seconds
 %variable: FinalBrewTemperature double input default=0 units=Farenheit
 %variable: TemperatureLossFromThermosToCup double input default=0 units=Farenheit

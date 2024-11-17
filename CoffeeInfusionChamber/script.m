@@ -15,7 +15,7 @@ total_coffee_mass_kg = total_coffee_mass_g / 1000;  % Convert to kg
 total_coffee_volume_m3 = total_coffee_mass_kg / density_coffee_grounds;
 
 % Assuming the infusion chamber is a cylindrical shape
-height_chamber = 0.1;  % Fixed height of the infusion chamber in meters (10 cm)
-radius_chamber = sqrt(total_coffee_volume_m3 / (pi * height_chamber));
+heightChamberMeters = 0.1;  % Fixed height of the infusion chamber in meters (10 cm)
+radiusChamberMeters = sqrt(total_coffee_volume_m3 / (pi * heightChamberMeters));
 
 

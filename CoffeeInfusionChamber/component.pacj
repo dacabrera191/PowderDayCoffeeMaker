@@ -17,7 +17,7 @@
   ],
   "outputs": [
     {
-      "name": "height_chamber",
+      "name": "heightChamberMeters",
       "metaData": {},
       "type": "Double",
       "format": "",
@@ -28,7 +28,7 @@
       "enumAliases": []
     },
     {
-      "name": "radius_chamber",
+      "name": "radiusChamberMeters",
       "metaData": {},
       "type": "Double",
       "format": "",
